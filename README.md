@@ -27,8 +27,10 @@ _todo_
 4. numpy
 5. pandas
 6. duckdb
-7. scikit-learn
-8. xgboost
-9. shap
-10. graphviz
-11. dill
+7. copulas
+8. sdv
+9. scikit-learn
+10. xgboost
+11. shap
+12. graphviz
+13. dill
