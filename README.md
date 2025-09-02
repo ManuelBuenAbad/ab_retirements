@@ -18,7 +18,7 @@ To complete this project, I:
 6. Designed an A/B experiment, where A is the control group (we leave a sample of the investor population alone) and B is the treatment group (the sample of the investor population we "nudged"),
 7. Performed a power analysis and extract the sample mean and 95% C.I. of the observed differences in the conversion rates and the increment in retirement contributions,
 8. Analyzed further the statistical properties of the two groups, and simulated what it would look like to monitor the experiment in real time.
-9. Did a HTE (Heterogeneous Treatment Effects) analysis and trained meta-learners.
+9. Did a HTE (Heterogeneous Treatment Effects) analysis (Pearson's chi2, ANOVA) and trained (S) meta-learners for uplift.
 
 
 📒 Notebook
@@ -43,6 +43,3 @@ To complete this project, I:
 8. sdv
 9. scikit-learn
 10. xgboost
-11. shap
-12. graphviz
-13. dill
