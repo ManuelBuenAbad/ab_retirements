@@ -41,5 +41,6 @@ To complete this project, I:
 6. duckdb
 7. copulas
 8. sdv
-9. scikit-learn
-10. xgboost
+9. statsmodels
+10. scikit-learn
+11. xgboost
