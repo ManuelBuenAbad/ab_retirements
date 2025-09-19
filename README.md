@@ -6,7 +6,7 @@ Written by Manuel A. Buen-Abad.**
 📄 Description
 -----------------------------------------
 
-We consider whether nudging the investors/clients of a financial firm ("ABC Investments") results in a measurable increase in their willingness to increase their yearly contributions to their retirement account, and also whether these additional contributions are larger than usual, within a given timeframe from receiving the nudge (e.g. one month).
+We consider whether nudging the investors/clients of a financial firm (the fictional "ABC Investments") results in a measurable lift in their willingness to increase their yearly contributions to their retirement account, and also whether these additional contributions are larger than usual, within a given timeframe from receiving the nudge (e.g. one month).
 
 To complete this project, I:
 
@@ -17,8 +17,9 @@ To complete this project, I:
 5. Modeled the conversion rate and increment in retirement contributions with a logistic regression and a linear regression, respectively, with the features of the investor population as covariates,
 6. Designed an A/B experiment, where A is the control group (we leave a sample of the investor population alone) and B is the treatment group (the sample of the investor population we "nudged"),
 7. Performed a power analysis and extract the sample mean and 95% C.I. of the observed differences in the conversion rates and the increment in retirement contributions,
-8. Analyzed further the statistical properties of the two groups, and simulated what it would look like to monitor the experiment in real time.
-9. Did a HTE (Heterogeneous Treatment Effects) analysis (Pearson's chi2, ANOVA) and trained (S) meta-learners for uplift.
+8. Analyzed further the statistical properties of the two groups, and simulated what it would look like to monitor the experiment in real time,
+9. Did a HTE (Heterogeneous Treatment Effects) analysis (Pearson's chi2, ANOVA) and trained (S & T) meta-learners for uplift and calculation of Qini and top@k quantities, and
+10. Computed mean and 95% C.I. for business metrics of interest (conversions, AUM, Revenue) via bootstrap, as well as their projected values upon rollout of the nudging campaign to the entire population of investors.
 
 
 📒 Notebook
